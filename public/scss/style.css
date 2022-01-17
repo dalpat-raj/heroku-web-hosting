@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* home page  */
+.h11{
+    text-align: center;
+    margin: auto;
+    margin-top: 30vh;
+    font: 900;
+    font-size: 60px;
+    border-bottom: 4px solid black;
+    border-radius: 20%;
+    width: 40%;
+}
+
+/* login form  */
+.formm{
+    width: 50%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 10vh;
+    border: 2px solid black;
+    padding: 10px ;
+    border-radius: 10px;
+}
+.loginn{
+    text-align: center;
+}
+.btn{
+    margin-left: 45%;
+}
+
+
+/* regstration form  */
+.r-mainn{
+    width: 60%;
+    margin: auto;
+    margin-top: 10vh;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.row{
+    margin-bottom: 20px;
+}
+.regs{
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    border-radius: 50px;
+}
+.btnregsiter{
+    width: 100%;
+    background-color: blueviolet;
+    /* position: absolute; */
+    /* margin-top: 80px; */
+}
+
+
+
+
+
+
+@media(max-width:768px){
+    .formm{
+        width: 90%;
+    }
+    .r-mainn{
+        width: 90%;
+    }
+}
